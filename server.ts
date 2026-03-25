@@ -5,7 +5,7 @@ import { createServer as createViteServer } from "vite";
 import path from "path";
 import { v4 as uuidv4 } from "uuid";
 
-const PORT = 3000;
+const PORT = 3030;
 
 async function startServer() {
   const app = express();
