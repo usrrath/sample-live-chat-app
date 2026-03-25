@@ -2,7 +2,7 @@ name: Node CI
 
 on:
   push:
-    branches: [ main, feat/workflows ]
+    branches: [ main, feat/workflows]
   pull_request:
     branches: [ main ]
 
