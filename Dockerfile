@@ -31,7 +31,7 @@ COPY --from=builder /app/node_modules ./node_modules
 ENV NODE_ENV=production
 
 # Expose the port the app runs on
-EXPOSE 3000
+EXPOSE 3030
 
 # Start the application using tsx (now in dependencies)
 CMD ["npm", "run", "start"]
